@@ -14,15 +14,26 @@ The code here provides all the the things which I tried.
 
 - Tried computing area of polygon of trajectory but it didn't worked so wan't included.
 
--
+- Tried counting dives and elevations as a feature but didn't worked.
+
+- Feature that worked most was length of stay(which means no of times bird stayed in journey)
+
+- Also at the end of competition features like left to right extent (difference) gave some good improvement.
+
+- One important thing to note here was that some of features were normalized with maximum no. of days travelled by the bird which was major part of the improvement.
 
 
 
 
 # Library Requirements:
+Do run if not installed :   pip install library name
 -numpy
 -pandas
 -mlbox
+-pyproj
+-shapely
+-functools
+-scipy
 
 # Usage:
 - Put all the data(train and test folders) inside data folder.
